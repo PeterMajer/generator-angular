@@ -11,5 +11,5 @@ angular.module('<%= _.camelize(appname) %>App')
 		class <%= _.camelize(name) %>
 			#public methods here
 			
-		return <%= _.camelize(name) %>
+		new <%= _.camelize(name) %>
   ]
